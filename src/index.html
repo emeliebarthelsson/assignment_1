@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css"/>
+    <link rel="stylesheet" href="./css/variables.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/navbar.css"/>
+    <link rel="stylesheet" href="./css/index.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1><a href="./index.html">Example</a></h1>
+    </header>
+    <main>
+        <nav class="navbar">
+            <input type="checkbox" id="sidebar-active">
+            <label 
+                for="sidebar-active" 
+                class="navbar__sidebar--open">
+                <svg class="navbar__svg" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#29251A" alt="menu icon"><path d="M140-254.62v-59.99h680v59.99H140ZM140-450v-60h680v60H140Zm0-195.39v-59.99h680v59.99H140Z"/></svg>
+            </label>
+            <label 
+                id="overlay" 
+                for="sidebar-active">
+            </label>
+            <div class="links-container">
+                <label 
+                    for="sidebar-active" 
+                    class="navbar__sidebar--close">
+                    <svg class="navbar__svg" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#29251A" alt="close icon"><path d="M256-213.85 213.85-256l224-224-224-224L256-746.15l224 224 224-224L746.15-704l-224 224 224 224L704-213.85l-224-224-224 224Z"/></svg>
+                </label>
+                
+                <a href="./index.html">Home</a>
+                <a href="#">Categories</a>
+                <a href="#">Blog</a>
+                <a href="#">Login</a>
+                <div class="links-container__search">
+                    <svg class="links-container__search-icon" xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#29251A"><path d="M781.69-136.92 530.46-388.16q-30 24.77-69 38.77-39 14-80.69 14-102.55 0-173.58-71.01-71.03-71.01-71.03-173.54 0-102.52 71.01-173.6 71.01-71.07 173.54-71.07 102.52 0 173.6 71.03 71.07 71.03 71.07 173.58 0 42.85-14.38 81.85-14.39 39-38.39 67.84l251.23 251.23-42.15 42.16ZM380.77-395.38q77.31 0 130.96-53.66 53.66-53.65 53.66-130.96t-53.66-130.96q-53.65-53.66-130.96-53.66t-130.96 53.66Q196.15-657.31 196.15-580t53.66 130.96q53.65 53.66 130.96 53.66Z"/></svg>
+                    <input class="links-container__search-input" type="text" id="search" name="search" placeholder="Search"/>
+                </div>
+            </div>
+
+            <!-- alt text?? -->
+            <a class="navbar__icon" href="./pages/form.html">
+                <svg class="navbar__svg" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#29251A" alt="cart icon"><path d="M286.15-97.69q-29.15 0-49.57-20.43-20.42-20.42-20.42-49.57 0-29.16 20.42-49.58 20.42-20.42 49.57-20.42 29.16 0 49.58 20.42 20.42 20.42 20.42 49.58 0 29.15-20.42 49.57-20.42 20.43-49.58 20.43Zm387.7 0q-29.16 0-49.58-20.43-20.42-20.42-20.42-49.57 0-29.16 20.42-49.58 20.42-20.42 49.58-20.42 29.15 0 49.57 20.42t20.42 49.58q0 29.15-20.42 49.57Q703-97.69 673.85-97.69ZM240.61-730 342-517.69h272.69q3.46 0 6.16-1.73 2.69-1.73 4.61-4.81l107.31-195q2.31-4.23.38-7.5-1.92-3.27-6.54-3.27h-486Zm-28.76-60h555.38q24.54 0 37.11 20.89 12.58 20.88 1.2 42.65L677.38-494.31q-9.84 17.31-26.03 26.96-16.2 9.66-35.5 9.66H324l-46.31 84.61q-3.08 4.62-.19 10 2.88 5.39 8.65 5.39h457.69v60H286.15q-40 0-60.11-34.5-20.12-34.5-1.42-68.89l57.07-102.61L136.16-810H60v-60h113.85l38 80ZM342-517.69h280-280Z"/></svg>
+            </a>
+        </nav>
+
+        <section class="container">
+            <div class="carousel">
+                <div class="carousel__card">
+                    <img class="carousel__card-img" src="./assets/images/img1.JPG" alt="Picture of Tudor Black Bay 58">
+                </div>
+                <div class="carousel__card">
+                    <img class="carousel__card-img" src="./assets/images/img2.JPG" alt="Picture of Tudor Black Bay 58">
+                </div>
+                <div class="carousel__card">
+                    <img class="carousel__card-img" src="./assets/images/img3.JPG" alt="Picture of Tudor Black Bay 58">
+                </div>
+                <div class="carousel__card">
+                    <img class="carousel__card-img" src="./assets/images/img4.JPG" alt="Picture of Tudor Black Bay 58">
+                </div>
+                <div class="carousel__card">
+                    <img class="carousel__card-img" src="./assets/images/img5.JPG" alt="Picture of Tudor Black Bay 58">
+                </div>
+            </div>
+        
+            <h2 class="container__heading">Tudor Black Bay 58</h2>
+            <p class="container__price">4040€</p>
+            <button class="container__button">Add to cart</button>
+            <p class="container__reference">Reference: M79030N-0001</p>
+            <ul class="container__list-specifications">
+                <h2>Watch specifications</h2>
+                    <li>39mm steel case with polished and satin finish</li>
+                    <li>20mm lug width</li>
+                    <li>Waterproof to 200m</li>
+                    <li>Unidirectional rotatable bezel in steel with 60-minute graduated disc in matt black anodised aluminium and pink gilded markings and numerals</li>
+                    <li>Dial: black, domed</li>
+                    <li>Domed sapphire crystal</li>
+                    <li>Manufacture Calibre MT5402 &#40;COSC&#41;</li>
+                    <li>Power reserve of approximately 70 hours</li>
+                    <li>Riveted steel bracelet with polished and satin finish, with folding clasp and safety catch</li>
+            </ul>
+            <ul class="container__list-delivery">
+                <h2>Delivery</h2>
+                    <li>Delivery within 1-2 days of products in stock</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <h2>Find us</h2>
+                <address>
+                    Exampleroad 1, 1234 Norway
+                </address>
+                <address>
+                    exampleemail@gmail.com
+                </address>
+        </section>
+        <section class="social">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Linkedin</a>
+        </section>
+    </footer>
+</body>
+</html>

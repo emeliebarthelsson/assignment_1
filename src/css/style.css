@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "BebasNeue-Regular";
+    src: url(../assets/fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+
+body {
+    width: 100%;
+    min-width: 300px;
+    height: auto;
+    min-height: 100vh;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: var(--font-size-medium);
+    background-color: var(--secondary-background-color);
+    color: var(--primary-color);
+}
+
+header {
+    width: 100%;
+    height: auto;
+    font-family: "BebasNeue-Regular", sans-serif;
+    background-color: var(--primary-background-color);
+    padding: var(--space-small);
+}
+
+header a {
+    color: var(--primary-color);
+}
+
+header a:hover {
+    color: var(--secondary-color);
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    background-color: var(--primary-background-color);
+    color: var(--primary-color);
+    padding: var(--space-small);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer address {
+    margin-top: var(--space-medium);
+}
+
+footer h2, a{
+    font-family: "BebasNeue-Regular", sans-serif;
+}
+
+footer .social {
+    display: flex;
+    gap: 2rem;
+}
+
+footer a {
+    color: var(--secondary-color);
+}
+
+footer a:hover {
+    color: var(--primary-color);
+}
+
+@media screen and (min-width:768px){
+    header {
+        padding: var(--space-medium);
+    }
+    footer {
+        padding: var(--space-medium);
+    }
+}
+
+@media screen and (min-width:1024px){
+    header {
+        padding: var(--space-large);
+    }
+    footer {
+        padding: var(--space-large);
+    }
+}
