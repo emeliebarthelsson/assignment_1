@@ -1,3 +1,4 @@
+/* mobile */
 .container {
     width: 100%;
     height: auto;
@@ -87,8 +88,7 @@
     font-family: "BebasNeue-Regular", sans-serif;
 }
 
-/******* image scroll *******/
-
+/* image scroll */
 .carousel {
     display: flex;
     width: 100%;
@@ -107,6 +107,7 @@
     width: 100%;
 }
 
+/* tablet */
 @media screen and (min-width:768px){
     .container {
         grid-template-columns: repeat(8, 1fr);
@@ -151,6 +152,7 @@
     }
 }
 
+/* desktop small */
 @media screen and (min-width:1024px){
     .container {
         grid-template-columns: repeat(16, 1fr);
@@ -193,6 +195,7 @@
     }
 }
 
+/* desktop large */
 @media screen and (min-width:1440px){
     .carousel {
         grid-row: 1/6;

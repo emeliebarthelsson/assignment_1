@@ -7,6 +7,7 @@
     src: url(../assets/fonts/Poppins-Regular.ttf);
 }
 
+/* mobile */
 body {
     width: 100%;
     min-width: 300px;
@@ -18,6 +19,7 @@ body {
     color: var(--primary-color);
 }
 
+/* header */
 header {
     width: 100%;
     height: auto;
@@ -34,6 +36,7 @@ header a:hover {
     color: var(--secondary-color);
 }
 
+/* footer */
 footer {
     width: 100%;
     height: auto;
@@ -67,19 +70,25 @@ footer a:hover {
     color: var(--primary-color);
 }
 
+/* tablet */
 @media screen and (min-width:768px){
     header {
         padding: var(--space-medium);
     }
+    
     footer {
         padding: var(--space-medium);
+        align-items: center;
+        text-align: center;
     }
 }
 
+/* desktop */
 @media screen and (min-width:1024px){
     header {
         padding: var(--space-large);
     }
+
     footer {
         padding: var(--space-large);
     }
