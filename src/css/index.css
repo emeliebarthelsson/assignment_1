@@ -1,4 +1,5 @@
 /* mobile */
+/* placement and styling of content */
 .container {
     width: 100%;
     height: auto;
@@ -114,6 +115,7 @@
         padding: var(--space-medium);
     }
 
+    /* placement of content */
     .carousel {
         grid-column: 1/6;
         grid-row: 1/7;
@@ -159,6 +161,7 @@
         padding: var(--space-large);
     }
 
+    /* placement of content */
     .carousel {
         grid-column: 1/8;
     }
@@ -197,6 +200,7 @@
 
 /* desktop large */
 @media screen and (min-width:1440px){
+    /* placement of content */
     .carousel {
         grid-row: 1/6;
     }

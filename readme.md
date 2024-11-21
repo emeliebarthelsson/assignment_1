@@ -1,5 +1,23 @@
-Photos taken by Anton Östman Photography, permission to use
+# School assignment. HTML and CSS fundamentals
 
-Watch specifications and reference gathered from https://www.tudorwatch.com/en/watches/black-bay-58/m79030n-0001
+## Description
+Two responsive webpages, one that introduces a product in detail and one that contains a form to order the product. 
 
-Inspiration for sidebar https://www.youtube.com/watch?v=8eFeIFKAKHw
+## Purpose
+Purpose of this assignment:
+- Practical experience in understanding and implementing fundamental HTML and CSS concepts
+- Learn how to structure a webpage using HTML and style with CSS
+
+## Credit
+- Photos taken by Anton Östman Photography (@watchbud), permission to use
+- Watch specifications and reference gathered from https://www.tudorwatch.com/en/watches/black-bay-58/m79030n-0001
+
+## Github repository
+https://github.com/emeliebarthelsson/assignment_1.git
+
+## Netlify
+
+
+## Author
+Emelie Barthelsson 
+Education: Frontend-utvikling

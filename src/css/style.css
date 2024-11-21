@@ -57,6 +57,7 @@ footer h2, a{
     font-family: "BebasNeue-Regular", sans-serif;
 }
 
+/* links */
 footer .social {
     display: flex;
     gap: 2rem;
@@ -83,7 +84,7 @@ footer a:hover {
     }
 }
 
-/* desktop */
+/* desktop small */
 @media screen and (min-width:1024px){
     header {
         padding: var(--space-large);
