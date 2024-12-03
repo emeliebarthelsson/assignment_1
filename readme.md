@@ -11,6 +11,8 @@ Purpose of this assignment:
 ## Credit
 - Photos taken by Anton Östman Photography (@watchbud), permission to use
 - Watch specifications and reference gathered from https://www.tudorwatch.com/en/watches/black-bay-58/m79030n-0001
+- Navbar inspired by school workshops
+- Event listener to navigate to form using window.location.href was inspired by chatGPT generated suggestions
 
 ## Github repository
 https://github.com/emeliebarthelsson/assignment_1.git

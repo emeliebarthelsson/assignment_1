@@ -1,7 +1,7 @@
 /* mobile */
 .container {
-    padding: var(--space-small);
     width: 100%;
+    padding: var(--space-small);
 }
 
 h3 {
@@ -41,7 +41,7 @@ h3 {
     font-size: var(--font-size-medium);
 }
 
-.form__input-container input, select{
+.form__input-container input, select {
     height: 40px;
     width: 100%;
     border: 1px solid var(--primary-background-color);
@@ -55,7 +55,7 @@ h3 {
     margin-top: var(--space-medium);
 }
 
-.form__shipping-options--radio input {
+.shipping-option__radio input {
     accent-color: var(--button-color);
 }
 
@@ -122,7 +122,7 @@ h3 {
         margin-top: var(--space-x-large);
     }
 
-    .form__shipping-options--radio {
+    .shipping-option__radio {
         margin: var(--space-medium) 0;
     }
 

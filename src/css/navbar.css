@@ -109,7 +109,7 @@
     align-items: center;
 }
 
-nav .cart__svg:hover{
+nav .cart__svg:hover {
     fill: var(--secondary-color);
     cursor: pointer;
 }

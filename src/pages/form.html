@@ -69,8 +69,9 @@
                         <p>4040€</p>
                     </div>
                 </section>
-                <!-- input contact details -->
+                <!-- contact details -->
                 <h3>Contact details</h3>
+                <!-- email input -->
                 <div class="form__input-container">
                     <label for="email">Email Address</label>
                     <input
@@ -83,6 +84,7 @@
                     />
                 </div>
                 <section class="form__input-column">
+                    <!-- first name input -->
                     <div class="form__input-container">
                         <label for="first-name">First name</label>
                         <input 
@@ -94,6 +96,7 @@
                             maxlength="20"
                         />
                     </div>
+                    <!-- last name input -->
                     <div class="form__input-container">
                         <label for="last-name">Last name</label>
                         <input 
@@ -106,6 +109,7 @@
                         />
                     </div>
                 </section>
+                <!-- address input -->
                 <div class="form__input-container">
                     <label for="address">Address</label>
                     <input
@@ -114,19 +118,23 @@
                         name="address"
                         required
                         placeholder="Enter street address"
+                        maxlength="50"
                     />
                 </div>
                 <section class="form__input-column">
+                    <!-- city input -->
                     <div class="form__input-container">
                         <label for="city">City</label>
                         <input
-                            type="number"
+                            type="text"
                             id="city"
                             name="city"
                             required
                             placeholder="Enter city name"
+                            maxlength="50"
                         />
                     </div>
+                    <!-- postal code input -->
                     <div class="form__input-container">
                         <label for="postal-code">Postal code</label>
                         <input
@@ -139,6 +147,7 @@
                     </div>
                 </section>
                 <section class="form__input-column">
+                    <!-- country input -->
                     <div class="form__input-container">
                         <label for="country">Country</label>
                         <select name="country" id="country" required>
@@ -146,6 +155,7 @@
                             <option value="norway">Norway</option>
                         </select>
                     </div>
+                    <!-- phone number input -->
                     <div class="form__input-container">
                         <label for="phone">Phone Number</label>
                         <input
@@ -158,11 +168,11 @@
                         />
                     </div>
                 </section>
-                <!-- radio buttons -->
+                <!-- shipping method radio buttons -->
                 <section class="form__shipping">
                     <h3>Shipping</h3>
                     <div class="form__shipping-options">
-                        <div class="form__shipping-options--radio">
+                        <div class="shipping-option__radio">
                             <input 
                                 type="radio" 
                                 name="shipping" 
@@ -171,7 +181,7 @@
                             />                    
                             <label for="pick-up-point">Pick-up point</label>
                         </div>
-                        <div class="form__shipping-options--radio">
+                        <div class="shipping-option__radio">
                             <input 
                                 type="radio" 
                                 name="shipping" 
@@ -179,7 +189,7 @@
                             />
                             <label for="home-delivery">Home delivery</label>
                         </div>
-                        <div class="form__shipping-options--radio">
+                        <div class="shipping-option__radio">
                             <input 
                                 type="radio" 
                                 name="shipping" 
@@ -216,12 +226,12 @@
     <footer>
         <section>
             <h2>Find us</h2>
-                <address>
-                    Exampleroad 1, 1234 Norway
-                </address>
-                <address>
-                    exampleemail@gmail.com
-                </address>
+            <address>
+                Exampleroad 1, 1234 Norway
+            </address>
+            <address>
+                exampleemail@gmail.com
+            </address>
         </section>
         <section class="social">
             <a href="#">Instagram</a>
