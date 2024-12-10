@@ -18,7 +18,7 @@ Purpose of this assignment:
 https://github.com/emeliebarthelsson/assignment_1.git
 
 ## Netlify
-
+https://superb-fox-0ecd7b.netlify.app/
 
 ## Author
 Emelie Barthelsson 
